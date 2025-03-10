@@ -1,0 +1,83 @@
+{
+    "boards": [{
+        "name": "Activity Plan Bank Mandiri Cabang TSI",
+        "columns": [{
+                "name": "Todo",
+                "color": "#49C4E5",
+                "tasks": [{
+                        "id": "task-001",
+                        "title": "Persiapan Sosialisasi Produk Baru",
+                        "description": "Mengatur materi presentasi dan brosur untuk sosialisasi produk kredit terbaru.",
+                        "status": "Todo",
+                        "subtasks": [
+                            { "title": "Desain brosur", "isCompleted": false },
+                            { "title": "Buat presentasi", "isCompleted": false },
+                            { "title": "Jadwalkan sesi sosialisasi", "isCompleted": false }
+                        ]
+                    },
+                    {
+                        "id": "task-002",
+                        "title": "Pelatihan Internal Karyawan",
+                        "description": "Mengadakan pelatihan terkait kebijakan KYC dan AML untuk seluruh staf.",
+                        "status": "Todo",
+                        "subtasks": [
+                            { "title": "Siapkan materi pelatihan", "isCompleted": false },
+                            { "title": "Jadwalkan sesi pelatihan", "isCompleted": false }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Doing",
+                "color": "#8471F2",
+                "tasks": [{
+                        "id": "task-003",
+                        "title": "Audit Internal Bulanan",
+                        "description": "Melakukan audit rutin untuk memastikan kepatuhan operasional.",
+                        "status": "Doing",
+                        "subtasks": [
+                            { "title": "Kumpulkan data transaksi", "isCompleted": true },
+                            { "title": "Review dokumen compliance", "isCompleted": false }
+                        ]
+                    },
+                    {
+                        "id": "task-004",
+                        "title": "Evaluasi Kinerja Sales",
+                        "description": "Menganalisis performa tim sales dan merencanakan strategi peningkatan target.",
+                        "status": "Doing",
+                        "subtasks": [
+                            { "title": "Kumpulkan laporan penjualan", "isCompleted": true },
+                            { "title": "Analisis data penjualan", "isCompleted": false },
+                            { "title": "Rapat strategi tim sales", "isCompleted": false }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Done",
+                "color": "#67E2AE",
+                "tasks": [{
+                        "id": "task-005",
+                        "title": "Penyelesaian Laporan Bulanan",
+                        "description": "Mengirimkan laporan kinerja bulanan ke kantor pusat.",
+                        "status": "Done",
+                        "subtasks": [
+                            { "title": "Rekap data cabang", "isCompleted": true },
+                            { "title": "Finalisasi laporan", "isCompleted": true }
+                        ]
+                    },
+                    {
+                        "id": "task-006",
+                        "title": "Implementasi Sistem Antrian Baru",
+                        "description": "Mengganti sistem antrian lama dengan sistem digital yang lebih efisien.",
+                        "status": "Done",
+                        "subtasks": [
+                            { "title": "Pasang perangkat keras", "isCompleted": true },
+                            { "title": "Uji coba sistem", "isCompleted": true }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }]
+}
